@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Widget.App.SearchView" parent="Widget.AppCompat.SearchView">
+        <item name="android:textColorHint">@android:color/white</item>
+        <item name="android:textColor">@android:color/white</item>
+
+        <!-- Always force white icons -->
+        <item name="searchIcon">@drawable/ic_search_white</item>
+        <item name="closeIcon">@drawable/ic_close_white</item>
+        <item name="goIcon">@drawable/ic_search_white</item>
+        <item name="voiceIcon">@drawable/ic_search_white</item>
+        <item name="commitIcon">@drawable/ic_search_white</item>
+
+        <!-- Remove background -->
+        <item name="queryBackground">@android:color/transparent</item>
+    </style>
+
+
+</resources>
+

@@ -1,0 +1,57 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- 🧍 USER SECTION -->
+    <group android:id="@+id/group_user">
+        <item
+            android:id="@+id/nav_home"
+            android:title="Home"
+            android:icon="@drawable/ic_home" />
+
+        <item
+            android:id="@+id/nav_profile"
+            android:title="My Profile"
+            android:icon="@drawable/ic_profile" />
+    </group>
+
+    <!-- 🛒 BUYER SECTION -->
+    <group android:id="@+id/group_buyer">
+        <item
+            android:id="@+id/nav_my_orders"
+            android:title="My Purchases"
+            android:icon="@drawable/ic_my_order" />
+    </group>
+
+    <!-- 🚚 SELLER SECTION -->
+    <group android:id="@+id/group_seller">
+
+        <item
+            android:id="@+id/nav_orders"
+            android:title="Incoming Orders"
+            android:icon="@drawable/ic_see_orders" />
+
+        <item
+            android:id="@+id/nav_delivered_orders"
+            android:title="Delivered Orders"
+            android:icon="@drawable/ic_delivered" />
+
+        <item
+            android:id="@+id/nav_add_vegetable"
+            android:title="Add Product"
+            android:icon="@drawable/ic_add" />
+    </group>
+
+    <!-- ⚙️ SETTINGS -->
+    <group android:id="@+id/group_settings">
+
+        <item
+            android:id="@+id/nav_settings"
+            android:title="App Settings"
+            android:icon="@drawable/ic_settings" />
+
+        <item
+            android:id="@+id/nav_logout"
+            android:title="Logout"
+            android:icon="@drawable/ic_logout" />
+    </group>
+
+</menu>

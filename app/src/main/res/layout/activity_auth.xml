@@ -1,0 +1,114 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:gravity="center"
+    android:background="@drawable/loginbackground2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+<androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="30dp"
+        app:cardCornerRadius="30dp"
+        app:cardElevation="20dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <EditText
+                android:id="@+id/fullname_input"
+                android:hint="Full Name"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:padding="8dp"
+                android:background="@drawable/custom_edittext" />
+
+            <EditText
+                android:id="@+id/phone_input"
+                android:hint="Phone Number"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:padding="8dp"
+                android:inputType="phone"
+                android:background="@drawable/custom_edittext"
+                android:layout_marginTop="12dp" />
+
+
+
+            <EditText
+                android:id="@+id/email_input"
+                android:hint="Email"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:inputType="textEmailAddress"
+                android:padding="8dp"
+                android:background="@drawable/custom_edittext"
+                android:layout_marginTop="12dp" />
+
+            <EditText
+                android:id="@+id/password_input"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:hint="Password"
+                android:inputType="textPassword"
+                android:padding="8dp"
+                android:background="@drawable/custom_edittext"
+                android:layout_marginTop="12dp"
+                android:drawableEnd="@drawable/ic_eye_closed"
+                android:drawablePadding="8dp" />
+
+
+
+
+            <EditText
+                android:id="@+id/address_input"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:minHeight="80dp"
+                android:lines="3"
+                android:gravity="top|start"
+                android:hint="Address"
+                android:padding="12dp"
+                android:background="@drawable/custom_edittext"
+                android:layout_marginTop="12dp"
+                android:inputType="textMultiLine" />
+
+            <ProgressBar
+                android:id="@+id/progressBar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:visibility="gone"
+                android:layout_gravity="center"
+                style="?android:attr/progressBarStyleLarge"/>
+
+
+            <Button
+                android:id="@+id/auth_button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Register"
+                android:background="@drawable/round_button"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:layout_marginTop="16dp" />
+
+            <Button
+                android:id="@+id/toggle_mode"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Switch to Login"
+                android:backgroundTint="@color/ExamGreen"
+                android:background="@drawable/round_button"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:layout_marginTop="8dp" />
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+</LinearLayout>

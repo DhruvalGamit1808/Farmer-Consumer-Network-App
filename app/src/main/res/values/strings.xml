@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Farmer Consumer</string>
+    <string name="action_settings">Settings</string>
+    <string-array name="vegetables_array">
+        <item>Potato</item>
+        <item>Tomato</item>
+        <item>Onion</item>
+        <item>Carrot</item>
+    </string-array>
+
+    <string name="nav_open">Open navigation</string>
+    <string name="nav_close">Close navigation</string>
+</resources>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="red">#8C0000</color>
+    <color name="MainGreen">#1C7E0E</color>
+    <color name="Base">#223C31</color>
+    <color name="ExamGreen">#394B03</color>
+    <color name="ProfBack">#394B03</color>
+<!--    <color name="ExamGreen">#99CC00</color>-->
+    <color name="purple_500">#6200EE</color>
+    <color name="purple_700">#3700B3</color>
+    <color name="nav_bg">#C2FADA</color>
+</resources>

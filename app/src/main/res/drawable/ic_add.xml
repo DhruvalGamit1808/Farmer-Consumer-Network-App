@@ -1,0 +1,16 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="22"
+    android:viewportHeight="24">
+
+    <!-- leaf shape -->
+    <path
+        android:fillColor="#000000"
+        android:pathData="M12,2C7,2 4,7 4,12c0,5 3,10 8,10s8,-5 8,-10c0,-5 -3,-10 -8,-10z"/>
+
+    <!-- plus sign accent -->
+    <path
+        android:fillColor="#2E7D32"
+        android:pathData="M11,7h2v4h4v2h-4v4h-2v-4H7v-2h4z"/>
+</vector>

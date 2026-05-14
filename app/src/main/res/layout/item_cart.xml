@@ -1,0 +1,64 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:gravity="center_vertical"
+    android:padding="12dp"
+    android:background="@drawable/custom_edittext"
+    android:layout_marginBottom="8dp">
+
+    <!-- Veg Name -->
+    <TextView
+        android:id="@+id/tvName"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Spinach"
+        android:textSize="16sp"
+        android:textStyle="bold"/>
+
+    <!-- Price -->
+    <TextView
+        android:id="@+id/tvPrice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="₹30"
+        android:layout_marginEnd="12dp"/>
+
+    <!-- Qty label -->
+    <TextView
+        android:id="@+id/tvQtyLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Qty:"
+        android:textSize="14sp"
+        android:layout_marginEnd="6dp"/>
+
+    <!-- Minus Button -->
+    <Button
+        android:id="@+id/btnMinus"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:text="-"/>
+
+
+    <!-- Quantity Input -->
+    <EditText
+        android:id="@+id/etQuantity"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:digits="0123456789"
+        android:gravity="center"
+        android:text="1"
+        android:background="@drawable/custom_edittext"
+        android:layout_marginStart="6dp"
+        android:layout_marginEnd="6dp"/>
+
+    <!-- Plus Button -->
+    <Button
+        android:id="@+id/btnPlus"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:text="+"/>
+</LinearLayout>
